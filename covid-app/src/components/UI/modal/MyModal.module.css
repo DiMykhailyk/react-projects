@@ -1,0 +1,57 @@
+.Wrapper {
+  position: absolute;
+  width: 400px;
+  height: 270px;
+  top: 35%;
+  left: 35%;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.Title {
+  font-size: 28px;
+  padding: 10px;
+  font-weight: bold;
+  word-break: break-all;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  margin: 7px 5px 5px 15px;
+  align-items: baseline;
+  color: rgb(121,121,121);
+}
+
+.Background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.25);
+ }
+
+ .icon {
+   position: relative;
+   top: 8px;
+   right: 10px;
+   transform: scale(0.7);
+ }
+ 
+ .btn {
+   padding: 7px;
+   margin: 10px 145px;  
+   border: 1px solid rgb(33,150,243); 
+   border-radius: 13px;
+   background: rgb(33,150,243);
+   color: white;
+   font-weight: bold;
+   font-size: 15px;
+ }
+

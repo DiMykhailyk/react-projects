@@ -1,0 +1,48 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 45px;
+  border: 1px solid rgb(216,216,216);
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+  margin: 15px;
+  padding: 5px;
+}
+
+.WrapperMock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 45px;
+    border: 1px solid rgb(216,216,216);
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    margin: 15px;
+    padding: 5px;
+    background-color: rgb(33,150,243);
+    color: #fff;
+}
+
+.Index {
+  border-right: 1px solid rgb(216,216,216);
+  padding: 20px;
+  width: 10px;
+  
+}
+
+.Country {
+  display: flex;
+  flex: auto;
+  padding: 15px;
+}
+
+.Amount {
+  display: flex;
+  justify-content: flex-start;
+  border-left: 1px solid rgb(216,216,216);
+  padding: 20px;
+  width: 350px;
+}
